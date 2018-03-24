@@ -2,10 +2,15 @@
 This is a sample config file for CircleCI for the Android Lovers :) Just use the simple steps below to get started with ease.
 
 ## How to use it
+* Log In to Circle CI - Using Github Preferrably :)
+* Click on add projects and set up.
+* Select Linux Operating System, and leave Gradle as the language selected.
 * Create a `.config` folder inside your project folder
 * Create a `config.yaml` file inside the `.config` folder
 * Make sure to have the latest docker image, at all times
 * Commit and push changes to Github :)
+* On the Circle CI dashboard, select step 5 `Start Building`. This will launch your project on CircleCI and make our webhooks listen for updates to your work.
+* Continue building!
 
 ## Github Badge
 Badges let you show the state of your documentation to your users. They are great for embedding in your README, or putting inside your actual doc pages.
