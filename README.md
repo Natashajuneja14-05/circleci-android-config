@@ -29,6 +29,12 @@ To add the badge, use the following steps:
 * Choose branch which should be monitored.
 * Copy the Markdown code, and paste it in your ReadMe File.
 
+## Private Repo Badge
+The badge does NOT WORK in a private repo without a CircleCI Token. Add it this way :
+```yml
+[![CircleCI](https://circleci.com/gh/<Github Username>/<RepoName>/tree/master.svg?style=shield&circle-token=<Token Here>)](https://circleci.com/gh/<Github Username>/<RepoName>/tree/master)
+```
+
 ## Future Additions
 * Generate an APK
 * Possibly output the APK to Slack :)
